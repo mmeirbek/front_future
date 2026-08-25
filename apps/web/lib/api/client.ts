@@ -3,7 +3,7 @@
  * No component calls fetch() directly.
  */
 
-const BASE_URL = process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:3002/v1";
+const BASE_URL = process.env.NEXT_PUBLIC_API_URL ?? "https://zertte-api.byapex.dev/v1";
 
 const ACCESS_KEY = "zertte.accessToken";
 const REFRESH_KEY = "zertte.refreshToken";
